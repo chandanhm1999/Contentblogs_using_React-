@@ -1,0 +1,30 @@
+.BlogCard {
+    margin: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+    color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #ccc;
+    background-image: url("https://wallpapercave.com/wp/wp2742508.jpg");
+    font-size: 24px;
+}
+
+.BlogCard > button {
+    font-size: 24px;
+}
+
+.stunter{
+    font-size: 14px;
+}
+
+.likeCount {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+@media (min-width: 992px) {
+    .BlogCard {
+        width: 45%;
+        display: inline-block;
+    }
+}
